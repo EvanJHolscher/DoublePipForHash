@@ -94,7 +94,6 @@ void computeHash(const string& hashProgName)
     perror("close");
     exit(-1);
   }
-  /*End To DO*/
   /* The child terminates */
   exit(0);
 }
